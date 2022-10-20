@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.scontainer{
+    width: 60rem;
+    height: 35rem;
+    margin: auto;
+    background-color: white;
+    margin-top: 5rem;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    -webkit-animation: bummer 0.5s;
+    animation: bummer 0.5s;
+    -webkit-transform: scale(0,0); 
+    transform: scale(0,0);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards
+}
+@-webkit-keyframes bummer {
+    100% {
+        -webkit-transform: scale(1,1); 
+    }
+}
+
+@keyframes bummer {
+    100% {
+        transform: scale(1,1); 
+    }
+}
+
+.simg{
+    width: 50%; 
+    height: 35rem;
+}
+
+.sform{
+    width: 50%;
+    padding: 5rem 6.2rem;
+}
+.sform h1{
+    margin-bottom: 3rem;
+}
+.sform i{
+    font-size: 1.5rem;
+}
+.inputE{
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.sform div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.sform section{
+    display:  flex;
+    align-items: center;
+}
+
+.sform button{
+    font-size: 1rem;
+    padding: 5px 20px;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+}
+.sform p{
+    font-size: 12px;
+}
+.sform p span{
+    color: blue;
+    text-decoration: underline;
+}
